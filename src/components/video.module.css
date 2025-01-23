@@ -1,0 +1,27 @@
+.embed-container {
+	@apply relative overflow-auto max-w-full;
+}
+
+.embed-general {
+	@apply relative h-0 overflow-hidden max-w-full;
+	padding-bottom: 56.25%;
+}
+
+.embed-desktop {
+	height: var(--work-size);
+}
+
+.embed-mobile {
+	height: 100vw;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
