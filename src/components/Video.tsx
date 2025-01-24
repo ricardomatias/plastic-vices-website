@@ -13,6 +13,7 @@ export const Video = () => {
 			loop
 			muted
 			controls={false}
+			playsinline
 			suppressHydrationWarning
 		/>
 	);

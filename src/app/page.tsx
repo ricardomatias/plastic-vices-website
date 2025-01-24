@@ -1,9 +1,5 @@
 import { Video } from "@/components/Video";
-import VideoComponent from "@/components/video-component";
-import { Vimeo } from "@/components/Vimeo";
-import Image from "next/image";
 import { Suspense } from "react";
-import { Input } from "@/components/ui/input";
 
 
 export default function Home() {
@@ -79,7 +75,7 @@ export default function Home() {
 							</a>
 						</li>
 					</ul>
-					<p className="inline-block font-bigShoulders text-2xl font-bold mt-auto mb-10 lg:mb-28 ml-auto items-center">
+					<p className="inline-block font-bigShoulders text-2xl font-bold mt-10 lg:mt-auto mb-10 lg:mb-28 ml-auto items-center">
 						FOLLOW ON{" "}
 						<a href="https://www.instagram.com/plasticvices/" className="inline-block ml-1 underline">
 							INSTAGRAM
