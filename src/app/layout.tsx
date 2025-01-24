@@ -25,6 +25,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" className={`${kanit.variable} ${bigShoulders.variable}`}>
+			<meta name="apple-mobile-web-app-title" content="Plastic Vices" />
 			<body className="antialiased bg-background">{children}</body>
 		</html>
 	);
