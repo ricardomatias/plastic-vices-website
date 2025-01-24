@@ -17,11 +17,15 @@ export default function Home() {
 					<Video />
 				</Suspense>
 			</div>
-			<div className="col-span-full grid grid-cols-12 gap-10 z-50">
+			<div className="col-span-full grid grid-cols-12 gap-y-10 xl:gap-10 z-50">
 				<div className="col-span-full lg:col-span-4 lg:col-start-3 h-full flex flex-col">
 					<h3 className="text-5xl font-thin col-span-full font-kanit">ROLL CREDITS</h3>
 					<h3 className="text-2xl col-span-full font-bold mb-10">THE FIRST EP IS OUT</h3>
-					<img src="/roll-credits-cover-final.jpg" alt="Roll Credits Cover" className="object-cover" />
+					<img
+						src="/roll-credits-cover-final.jpg"
+						alt="Roll Credits Cover"
+						className="object-contain w-full max-w-xs md:max-w-md mx-auto"
+					/>
 				</div>
 				<div className="col-span-full row-span-2 lg:col-span-4 h-full flex flex-col lg:items-center lg:mt-16">
 					<h3 className="text-3xl font-thin font-kanit block mb-5">Available at</h3>
@@ -34,7 +38,7 @@ export default function Home() {
 								<img
 									src="https://toolbox.marketingtools.apple.com/api/v2/badges/listen-on-apple-music/mono-white/en-us?releaseDate=1737676800"
 									alt="Listen on Apple Music"
-									className="object-contain"
+									className="object-contain h-[36px]"
 								/>
 							</a>
 						</li>
@@ -75,6 +79,12 @@ export default function Home() {
 							</a>
 						</li>
 					</ul>
+					<p className="inline-block font-bigShoulders text-2xl font-bold mt-auto mb-10 lg:mb-28 ml-auto items-center">
+						FOLLOW ON{" "}
+						<a href="https://www.instagram.com/plasticvices/" className="inline-block ml-1 underline">
+							INSTAGRAM
+						</a>
+					</p>
 				</div>
 			</div>
 			<footer className="col-span-full grid grid-cols-2 gap-x-5 items-end">
@@ -84,7 +94,7 @@ export default function Home() {
 						general@plasticvices.com
 					</a>
 				</p>
-				<p className="text-2xl font-bigShoulders text-right">© 2021 Plastic Vices</p>
+				<p className="text-2xl font-bigShoulders text-right">© 2025 Plastic Vices</p>
 			</footer>
 		</main>
 	);
