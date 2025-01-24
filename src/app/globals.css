@@ -43,7 +43,7 @@ h6 {
 
 @layer base {
 	* {
-		@apply border-border;
+		@apply border-border box-content;
 	}
 	body {
 		@apply bg-background text-foreground;

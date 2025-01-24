@@ -10,6 +10,7 @@ const bigShoulders = Big_Shoulders_Display({
 const kanit = Kanit({
 	variable: "--font-kanit",
 	weight: ["100", "200", "400"],
+	subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
