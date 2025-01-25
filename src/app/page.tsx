@@ -25,7 +25,7 @@ export default function Home() {
 				</div>
 				<div className="col-span-full row-span-2 lg:col-span-4 h-full flex flex-col lg:items-center lg:mt-16">
 					<h3 className="text-3xl font-thin font-kanit block mb-5">Available at</h3>
-					<ul className="flex flex-col gap-5">
+					<ul className="flex flex-col gap-y-7">
 						<li className="text-2xl font-bold cursor-pointer flex">
 							<a
 								href="https://music.apple.com/de/album/roll-credits-ep/1789307144?itscg=30200&itsct=music_box_badge&ls=1&app=music&mttnsubad=1789307144"
@@ -70,7 +70,16 @@ export default function Home() {
 								<img
 									src="/yt_logo_mono_dark.png"
 									alt="Listen on Youtube Music"
-									className="object-contain align-middle h-[36px]"
+									className="object-contain align-middle h-[32px]"
+								/>
+							</a>
+						</li>
+						<li className="text-2xl font-bold cursor-pointer">
+							<a href="https://tidal.com/browse/album/410243033" className="">
+								<img
+									src="/tidal-wide-white-rgb.png"
+									alt="Listen on Tidal"
+									className="object-contain align-middle h-[22px]"
 								/>
 							</a>
 						</li>
@@ -79,6 +88,10 @@ export default function Home() {
 						FOLLOW ON{" "}
 						<a href="https://www.instagram.com/plasticvices/" className="inline-block ml-1 underline">
 							INSTAGRAM
+						</a>{" "}
+						AND{" "}
+						<a href="https://www.youtube.com/@plasticvices" className="inline-block underline">
+							YOUTUBE
 						</a>
 					</p>
 				</div>
