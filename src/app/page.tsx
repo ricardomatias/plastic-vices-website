@@ -27,6 +27,15 @@ export default function Home() {
 					<h3 className="text-3xl font-thin font-kanit block mb-5">Available at</h3>
 					<ul className="flex flex-col gap-y-7">
 						<li className="text-2xl font-bold cursor-pointer flex">
+							<a href="https://plasticvices.bandcamp.com/album/roll-credits" className="block">
+								<img
+									src="/bandcamp-logotype-light-128.png"
+									alt="Listen on Bandcamp"
+									className="object-contain h-[28px]"
+								/>
+							</a>
+						</li>
+						<li className="text-2xl font-bold cursor-pointer flex">
 							<a
 								href="https://music.apple.com/de/album/roll-credits-ep/1789307144?itscg=30200&itsct=music_box_badge&ls=1&app=music&mttnsubad=1789307144"
 								className="block"
